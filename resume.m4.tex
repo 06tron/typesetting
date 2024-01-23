@@ -11,13 +11,14 @@
 \usepackage{nopageno}
 
 \newcommand{\bp}{$\circ$ }
+\newcommand{\purl}[2]{\urllink{#1#2}{\texttt{#2}}}
 
 \begin{document}
 \centering
 \SetTblrInner{rowsep=5pt, stretch=0, hspan=minimal}
 \begin{tblr}{X[l]X[c]X[r]}
 	\SetCell[c=3]{c} \textbf{\Large Matthew Richardson} & & \\
-	\texttt{mrichardson@umass.edu} & Arlington MA, 02474 & \urllink{https://www.linkedin.com/in/3mrichardson/}{\texttt{linkedin.com/in/3mrichardson}} \\
+	\texttt{mrichardson@umass.edu} & Arlington MA, 02474 & \purl{https://www.}{linkedin.com/in/3mrichardson} \\
 	SECTION(EDUCATION, Major GPA: 3.891)
 	SUBSECTION(University of Massachusetts Amherst, College of Information and Computer Sciences)
 	\SetCell[c=2]{l}
@@ -42,7 +43,7 @@
 		{\bp Independently took inventory of the press's records and publication archive. \\
 		\bp Efficiently counted and reorganized thousands of books.} & & \\
 	SECTION(PROJECTS)
-	SUBSECTION(Sudoku Website, \urllink{https://06tron.github.io/}{\texttt{06tron.github.io}})
+	SUBSECTION(Sudoku Website, \purl{https://}{06tron.github.io})
 	\SetCell[r=2,c=2]{l}
 		{\bp Maintaining an innovative online Sudoku game. \\
 		\bp Focuses on interactive navigation of oddly shaped boards, similar to the small, portal-inspired puzzle on the right. \\

@@ -1,0 +1,31 @@
+% dnl Generate text for /Users/06tron/Repositories/coursework/cs589/hw5.m4.tex with "m4 -D HW_NAME=cs589/hw5 homework.m4.tex".
+% changequote(`«', `»')changecom(«%»)dnl
+
+\documentclass[12pt]{article}
+
+\usepackage{amssymb}
+\usepackage[shortlabels]{enumitem}
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{tikz}
+
+\newcommand{\ans}{\par\vspace{25pt}\noindent} % Answer Spacing
+\newcommand{\bv}[1]{\boldsymbol{\mathbf{#1}}} % Bold Vector {amsmath}
+\newcommand{\flr}[1]{\left\lfloor#1\right\rfloor} % Floor
+\newcommand{\inv}{^{-1}} % Inverse
+\newcommand{\isum}{\sum^\infty} % Infinite Sum
+\newcommand{\lmat}[1]{\begin{pmatrix}#1\end{pmatrix}} % Large Matrix {amsmath}
+\newcommand{\rls}{\mathbb{R}} % Reals {amssymb}
+\newcommand{\setb}[2]{\left\lbrace#1\;\middle\vert\;#2\right\rbrace} % Set Builder
+\newcommand{\smat}[1]{\begin{psmallmatrix}#1\end{psmallmatrix}} % Small Matrix {mathtools}
+
+\title{\vspace{-2cm}\texttt{HW_NAME}}
+\author{Matthew Richardson}
+\date\today
+
+\begin{document}
+\maketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+include(/Users/06tron/Repositories/coursework/HW_NAME.m4.tex)%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

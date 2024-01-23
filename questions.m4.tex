@@ -1,0 +1,12 @@
+define(«Q_LOOP», «ifelse(«$1», «1», «», «Q_LOOP(decr(«$1»))
+\newpage
+\section{} % $1
+
+\ans
+
+»)»)dnl
+\section{} % 1
+
+\ans
+
+Q_LOOP(Q_COUNT)dnl
