@@ -1,0 +1,7 @@
+menu#list-of-books > li > a {
+	text-decoration: none;
+}
+
+menu#list-of-books > li:hover {
+	text-decoration: underline;
+}
