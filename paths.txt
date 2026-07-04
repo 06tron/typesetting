@@ -1,3 +1,0 @@
-static/{a}.htm -> static/{a}.xhtml (text/html;charset=utf-8)
-static/{a}.xht -> static/{a}.xhtml (application/xhtml+xml;charset=utf-8)
-static/{a}.js -> static/{a}.js (text/javascript;charset=utf-8)
