@@ -10,6 +10,9 @@
 \usepackage{graphicx}
 \usepackage{mathtools}
 \usepackage{tkz-graph}
+\usetikzlibrary{quantikz2}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
 
 \newcommand{\ans}{\par\vspace{25pt}\noindent} % Answer Spacing
 \newcommand{\bv}[1]{\boldsymbol{\mathbf{#1}}} % Bold Vector {amsmath}
@@ -17,12 +20,12 @@
 \newcommand{\gft}[1]{a_{#1}x^{#1}} % Generating Function Term
 \newcommand{\inv}{^{-1}} % Inverse
 \newcommand{\isum}{\sum^\infty} % Infinite Sum
-\newcommand{\lmat}[1]{\begin{pmatrix}#1\end{pmatrix}} % Large Matrix {amsmath}
+\newcommand{\lmat}[1]{\begin{bmatrix}#1\end{bmatrix}} % Large Matrix {amsmath}
 \newcommand{\nni}{\mathbb{Z}_{\geq{0}}} % Nonnegative Integers {amssymb}
 \newcommand{\rls}{\mathbb{R}} % Reals {amssymb}
 \newcommand{\setb}[2]{\left\lbrace#1\;\middle\vert\;#2\right\rbrace} % Set Builder
 \newcommand{\sgeq}[2]{\sum_{#1\geq#2}} % Sum GEQ
-\newcommand{\smat}[1]{\begin{psmallmatrix}#1\end{psmallmatrix}} % Small Matrix {mathtools}
+\newcommand{\smat}[1]{\begin{bsmallmatrix}#1\end{bsmallmatrix}} % Small Matrix {mathtools}
 \newcommand{\xth}[1]{$#1$\raisebox{0.2em}{\scriptsize th}} % Superscripted "th"
 
 \newfontface\freesf{FreeSerif} % Characters like: ♞ ♘
