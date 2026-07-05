@@ -3,7 +3,8 @@
 id='mathjax'
 src='data:text/javascript,//https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js'
 defer=''></script>"
+
 , body:
-"<h1></h1><main></main><details
+"<h1>Textbook Title</h1><main><p>Completed exercises from the textbook will be displayed here.</p></main><details
 id='list-container'><summary>Menu</summary><nav><menu
 id='list-of-books'></menu></nav></details>" }
