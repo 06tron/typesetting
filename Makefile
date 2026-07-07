@@ -30,9 +30,3 @@ q = 1
 #   editing is done in Overleaf.
 ../coursework/%.m4.tex:
 	@cp questions.m4.tex $@ && open $@
-
-server/static/%.htm: templates/htm.jq src/%.jq.xml
-	./combine-src-xhtml.sh $* $< > $@
-
-server/static/%.xht: templates/xht.jq src/%.jq.xml
-	./combine-src-xhtml.sh $* $< > $@
